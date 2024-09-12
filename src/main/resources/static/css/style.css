@@ -1,0 +1,161 @@
+	body {
+	    font-family: 'Roboto', sans-serif;
+	    margin: 0;
+	    padding: 0;
+	    display: flex;
+	    flex-direction: column;
+	    min-height: 100vh;
+	}
+	
+	/* Navbar */
+	.navbar {
+	    background-color: #f2fdf2; /* Blanco */
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.navbar-brand {
+	    color: #a4c5a5; /* Verde pastel */
+	    font-weight: bold;
+	}
+	
+	.navbar-brand:hover {
+	    color: #388e3c; /* Verde más oscuro */
+	}
+	
+	.navbar-nav .nav-link {
+	    color: #333;
+	}
+	
+	.navbar-nav .nav-link:hover {
+	    color: #8fd891; /* Verde pastel */
+	    font-weight: bold;
+	}
+
+	/* Header */
+	header {
+	    background-color: #ffffff; /* Blanco */
+	    border-bottom: 2px solid #e0e0e0; /* Línea sutil */
+	    padding: 1rem;
+	}
+	
+	header h1 {
+	    color: #4caf50; /* Verde pastel */
+	    margin: 0;
+	}
+	
+	header p {
+	    color: #555;
+	    margin: 0;
+	}
+	
+	/* Estilo del contenedor principal */
+	.container {
+	    padding: 1rem;
+	    flex: 1;
+	}
+	
+	
+	/* Botones */
+	.container-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container-button .d-flex {
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: center;
+		gap: 15px; 
+		max-width: 450px; 
+	}
+	
+	.container-button .btn {
+		width: 200px; 
+	}
+	
+	#btn-ingresar, #btn-ver {
+		display: flex;
+		flex-direction: column;
+		border-radius: 10px;
+		font-weight: bold;
+		text-align: center;
+		padding: 0.5rem 1rem;
+		font-size: 12px;
+		background-color: #a4c5a5;
+		width: 200px; 
+	}
+  
+	/* Card */
+	.card {
+	    background-color: #ffffff; 
+	    border-radius: 8px;
+	    width: 400px; 
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	    margin-bottom: 1rem; 
+	}
+	
+	.card .form-label {
+	    color: #555;
+		font-size: 0.875rem;
+	}
+	
+	.form-control {
+	    padding: 0.4rem; 
+	    font-size: 0.875rem; 
+	}
+	
+	#enviar {
+	    background-color: #4caf50; 
+	    border-color: #4caf50;
+	    color: #fff; 
+	}
+	
+	#enviar:hover {
+	    background-color: #45a049; 
+	    border-color: #45a049;
+	}
+	
+	/*LISTAR*/
+	
+	/* Tabla */
+	.table {
+	    background-color: #ffffff; 
+	    border-radius: 8px;
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	    margin-top: 1rem;
+	}
+	.table thead th {
+	    background-color: #f5f5f5; 
+	    color: #333;
+	}
+	
+	.table tbody tr:nth-child(even) {
+	    background-color: #e2d7d7; 
+	}
+	
+	.table tbody tr:hover {
+	    background-color: #e0f7fa; 
+	}
+	
+	.table a {
+	    color: #4caf50; 
+	    text-decoration: none;
+	}
+	
+	.table a:hover {
+	    text-decoration: underline;
+	}
+	
+	/* Footer */
+	footer {
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		font-size: 0.875rem;
+		padding: 1rem;
+		position: fixed; 
+		bottom: 0;
+	}
+	
